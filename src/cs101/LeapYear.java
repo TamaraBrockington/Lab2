@@ -3,7 +3,7 @@ package cs101;
 public class LeapYear {
 
 	public static void main(String[] args) {
-		int year = 2025;
+		int year = 2000;
 		boolean isLeapYear;
 
 		// divisible by 4
@@ -18,7 +18,9 @@ public class LeapYear {
 		System.out.println(isLeapYear);
 
 		// TODO: declare a boolean variable called `isNotLeapYear`
+		boolean isNotLeapYear;
 		// initialize `isNotLeapYear` to determine when a year is not a leap year
+		isNotLeapYear = !isLeapYear;
 		// you can do this any way you would like, but you MUST use an EXPRESSION (or
 		// expressions)
 		// (not just set it to the literal `true` or `false`)
